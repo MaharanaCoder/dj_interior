@@ -1,0 +1,74 @@
+/* Navbar.css */
+
+/* Style the navbar container */
+.navbar {
+    height: 70px;
+    width: 100%;
+    box-shadow: rgb(227, 11, 11);
+    background-color: red;
+    
+}
+.header{
+    background-color: red;
+}
+/* Style the navbar brand */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ff0000; /* Set your desired text color */
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+    margin-right: 15px;
+    font-size: 18px; /* Set your desired font size */
+    color: #343a40; /* Set your desired text color */
+}
+
+/* Style the active link */
+.nav-link.active {
+    font-weight: bold; /* Set your desired font weight */
+}
+
+/* Style the dropdown menu */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+
+
+
+
+  
+  .navbar-toggler {
+    border-color: white; /* Optional: Set the border color of the toggler */
+  }
+  
+  .nav-link {
+    color: white; /* Set the color of the navbar links */
+  }
+  
+  .nav-link:hover {
+    color: rgb(239, 90, 90); /* Set the hover color of the navbar links */
+  }
+  
+  .dropdown-menu {
+    background-color: red; /* Set the background color of the dropdown menu */
+  }
+  
+  .dropdown-item {
+    color: white; /* Set the color of the dropdown items */
+  }
+  
+  .dropdown-item:hover {
+    background-color: white; /* Set the hover background color of the dropdown items */
+    color: red; /* Set the hover color of the dropdown items */
+  }
+  
+  .navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: rgb(214, 178, 30) !important;
+  }
+  
